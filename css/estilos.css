@@ -1,0 +1,36 @@
+.bi{
+    color: aliceblue;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+header{
+    border: 1px solid red (0, 96%, 40%); 
+    width: 100%; 
+    height: auto;  
+    background: gold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    border: none;
+    background: red;
+}
+#mainMenu{
+    display: none;
+}
+.menu ul{
+    list-style: none;
+    display: inline-block;
+}
+#botonera button{
+    border: 1px solid white;
+    border-radius: 100%;
+    background: none;
+    color: aliceblue;
+    padding: 5px 10px;
+    margin: 4px;
+}
+#logo{
+    width: 100px;
+}

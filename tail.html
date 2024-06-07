@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> titulo bonito </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme:{
+                extend:{
+                    colors:{
+                        black: '#000', 
+                        white: '#fff',
+                    }
+                }
+            }
+
+        }
+    </script>
+    <style type="text/tailwindcss">
+        .btn{
+            @apply font-bold rounded py-2 px-4;
+        }
+        .btn-black{
+            @apply bg-black text-white;
+        }
+    </style>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <nav class="px-2 flex justify-between">
+            <h3>
+                <span data-text="j"></span>
+                <span>rgb</span>
+            </h3>
+            <menu>
+                <Li><a href="#"> Home </a></Li>
+                <li><a href="#"> Catrina </a></li>
+                <Li><a href="#"> Diario </a></Li>
+                <Li><a href="#"> Cart </a></Li>
+                <Li><a href="#"> Cliente </a></Li>
+            </menu>
+            <button class="btn-black"> Contactanos </button>
+        </nav>
+        <div>
+
+        </div>
+    </header>
+</body>
+</html>
